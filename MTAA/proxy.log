@@ -1,0 +1,43 @@
+23:30:47:INFO:Tue, 01 Mar 2022 23:30:47 
+23:30:47:INFO:LAPTOP-25J23E3A
+23:30:47:INFO:10.10.39.98
+23:31:02:INFO:>>> REGISTER sip:10.10.39.98 SIP/2.0
+23:31:02:INFO:From: mobile@10.10.39.98 - Contact: 10.10.39.97:40944
+23:31:02:INFO:<<< SIP/2.0 200 VYBORNE
+23:31:22:INFO:>>> REGISTER sip:10.10.39.98 SIP/2.0
+23:31:22:INFO:From: tomino@10.10.39.98 - Contact: 10.10.39.98:56238
+23:31:22:INFO:<<< SIP/2.0 200 VYBORNE
+23:31:23:INFO:>>> PUBLISH sip:tomino@10.10.39.98 SIP/2.0
+23:31:23:INFO:<<< SIP/2.0 200 VYBORNE
+23:31:34:INFO:>>> INVITE sip:mobile@10.10.39.98 SIP/2.0
+23:31:34:INFO:destination mobile@10.10.39.98
+23:31:34:INFO:<<< INVITE sip:mobile@10.10.39.98 SIP/2.0
+23:31:34:INFO:>>> SIP/2.0 100 Trying
+23:31:34:INFO:<<< SIP/2.0 100 Trying
+23:31:34:INFO:>>> SIP/2.0 180 Ringing
+23:31:34:INFO:<<< SIP/2.0 180 Ringing
+23:31:40:INFO:>>> SIP/2.0 200 Ok
+23:31:40:INFO:<<< SIP/2.0 200 Ok
+23:31:41:INFO:>>> SIP/2.0 200 Ok
+23:31:41:INFO:<<< SIP/2.0 200 Ok
+23:31:42:INFO:>>> ACK sip:mobile@10.10.39.97:40944;transport=udp SIP/2.0
+23:31:42:INFO:destination mobile@10.10.39.98
+23:31:42:INFO:<<< ACK sip:mobile@10.10.39.97:40944;transport=udp SIP/2.0
+23:31:42:INFO:>>> ACK sip:mobile@10.10.39.97:40944;transport=udp SIP/2.0
+23:31:42:INFO:destination mobile@10.10.39.98
+23:31:42:INFO:<<< ACK sip:mobile@10.10.39.97:40944;transport=udp SIP/2.0
+23:31:43:INFO:>>> INVITE sip:mobile@10.10.39.97:40944;transport=udp SIP/2.0
+23:31:43:INFO:destination mobile@10.10.39.98
+23:31:43:INFO:<<< INVITE sip:mobile@10.10.39.97:40944;transport=udp SIP/2.0
+23:31:43:INFO:>>> SIP/2.0 100 Trying
+23:31:43:INFO:<<< SIP/2.0 100 Trying
+23:31:43:INFO:>>> SIP/2.0 200 Ok
+23:31:43:INFO:<<< SIP/2.0 200 Ok
+23:31:44:INFO:>>> ACK sip:mobile@10.10.39.97:40944;transport=udp SIP/2.0
+23:31:44:INFO:destination mobile@10.10.39.98
+23:31:44:INFO:<<< ACK sip:mobile@10.10.39.97:40944;transport=udp SIP/2.0
+23:31:55:INFO:>>> BYE sip:mobile@10.10.39.97:40944;transport=udp SIP/2.0
+23:31:55:INFO:destination mobile@10.10.39.98
+23:31:55:INFO:<<< BYE sip:mobile@10.10.39.97:40944;transport=udp SIP/2.0
+23:31:55:INFO:>>> SIP/2.0 200 Ok
+23:31:55:INFO:<<< SIP/2.0 200 Ok
